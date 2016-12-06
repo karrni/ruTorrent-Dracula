@@ -1,0 +1,1058 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,600,700,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,600,700,300);
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot');
+  src: url('fonts/fontawesome-webfont.eot') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2') format('woff2'), url('fonts/fontawesome-webfont.woff') format('woff'), url('fonts/fontawesome-webfont.ttf') format('truetype'), url('fonts/fontawesome-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: 'Roboto' !important;
+    text-shadow: none !important;
+}
+
+/* Override rutorrent default font styles */
+a, fieldset, div#CatList ul li, .catpanel,
+div.dlg-header, div#dlgHelp-header, ul#tabbar li a,
+div#lcont, div#gcont table, div#StatusBar {
+    font-family: 'Roboto';
+}
+
+a {
+    color: #347aef;
+    transition: .2s ease-out;
+}
+
+a:hover {
+    color: #386DCA;
+}
+
+a:focus,
+a:active {
+    color: #3C61A5;
+}
+
+/* HOVER */
+
+.lm li a:hover,
+ul.CMenu li a:hover,
+ul.CMenu li:hover ul li a:hover,
+div#CatList ul li:hover {
+    background: #393B4C;
+    color: #f1fa8c;
+    transition: .2s ease-out;
+}
+
+ul.CMenu li a.dis:hover {
+    background: none;
+}
+
+ul#tabbar li a:hover {
+    border-bottom: 2px solid #f1fa8c;
+}
+
+/* ACTIVE */
+.lm li a.focus,
+ul.CMenu li a.menu-cmd.sel,
+div#CatList ul li.sel,
+div#CatList ul li.sel span {
+    background: #3E4153;
+    color: #ffb86c;
+    transition: .2s ease-out;
+}
+
+ul#tabbar li.selected a {
+    border-bottom: 2px solid #ffb86c;
+}
+
+/* BG1 - 282A36 */
+/* BG2 - 2E303D */
+div#CatList, div#tdetails, div#List {
+    background: #2E303D;
+}
+
+/* BG3 - 333644 */
+div#t, div#gcont table td.Header {
+    background: #333644;
+}
+
+/* BG4 - 393B4C */
+/* BG5 - 3E4153 */
+/* BG6 - 44475A */
+#StatusBar, #tdetails #tabbar {
+    background: #44475A;
+}
+
+
+
+div#CatList #plabel_cont ul li:before,
+div#CatList ul li:before,
+*:before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+
+
+select {
+    background: none;
+    padding: 4px 15px 4px 8px !important;
+    -webkit-appearance: none !important;
+}
+
+.buttons-list {
+    margin: 4px 0 6px;
+}
+
+input.Button {
+    background: #957AC4;
+    border: none;
+    border-radius: 2px;
+    color: #f8f8f2;
+    cursor: pointer;
+    display: inline;
+    font-weight: 700;
+    height: 21px;
+    text-transform: uppercase;
+    transition: .2s ease-out;
+    font-family: "Roboto Condensed";
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+input.Button:hover {
+    background: #816DAA;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+input.Button:focus,
+input.Button:active {
+    background: #6C608F;
+}
+
+input.TextboxLarge {
+    border: none;
+}
+
+input[type="file"],
+input[type="text"],
+input[type="password"],
+select {
+    background: #44475A;
+    border: none;
+    color: #f8f8f2;
+    padding: 4px 8px;
+}
+
+textarea {
+    background: #44475A;
+    border: none;
+    border-radius: 2px;
+}
+
+fieldset {
+    border: none;
+    background: #393B4C;
+    border-radius: 0;
+}
+
+legend {
+    color:#bd93f9;
+    text-shadow: none;
+    text-transform:uppercase;
+    font-weight:500;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+}
+
+td.disabled,
+label.disabled,
+span.disabled,
+div.disabled {
+    opacity: .5;
+}
+
+input[type="text"][disabled],
+input[type="password"][disabled],
+input[type="file"][disabled],
+select[disabled] {
+    opacity: .5;
+    border: none;
+    color: #f8f8f2;
+}
+
+div#preload {
+    background: none !important;
+    display: none;
+    height: 0;
+    width: 0;
+}
+
+/* no idea what all that shit is */
+
+div#cover {
+    background: #181818;
+}
+
+div#msg span#loadimg {
+    background: none;
+}
+
+div#modalbg {
+    background: none;
+}
+
+div#dragmask {
+    border: 1px dotted #f8f8f2;
+    background: rgba(248, 248, 242, 0.1);
+}
+
+div#sel {
+    border: 1px dotted #555;
+}
+
+div#sc {
+    background-color: #181818;
+    border: 1px solid #333;
+}
+
+div#sc li.se_act div {
+    background-color: #333;
+    color: #888;
+}
+
+div#lng {
+    background-color: #181818;
+    border: 1px solid #333
+}
+
+div#msg {
+    background:#151515;
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+    font-size:11px;
+    font-weight:700;
+}
+
+
+/* The right click menu in general */
+
+ul.CMenu {
+    background: #333644;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/* 2nd level menu */
+
+ul.CMenu .CMenu {
+    margin-left: 4px;
+}
+
+/* Basic BG for all elements */
+
+ul.CMenu li {
+    background: none;
+}
+
+ul.CMenu li hr {
+    height: 1px;
+    background: #3E4153;
+    border: none;
+}
+
+/* Every link (menu entry) in 1st and 2nd level menus */
+
+ul.CMenu li a,
+ul.CMenu li:hover ul li a {
+    background: none;
+    color: #f8f8f2;
+}
+
+/* dialogues in general */
+#stg_c {
+    padding: 4px;
+}
+
+/* Options popup */
+
+div.stg_con {
+    background: none;
+    height: 492px;
+    margin: 0;
+}
+
+.stg_con td {
+    padding-bottom: 2px;
+}
+
+.stg_con td input {
+    padding: 4px 8px;
+}
+
+#st_ao_h,
+#st_throttle_h {
+    height: 360px !important
+}
+
+/* Options Sidebar */
+
+div#stg .lm {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 12px 0 0 0;
+}
+
+.lm li,
+.lm li.first,
+.lm li.last,
+.lm li div.toggle {
+    background: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    margin-bottom: 3px;
+}
+
+.lm li a {
+    font-size: 1em;
+    color: #f8f8f2;
+}
+
+.lm li a:hover,
+.lm li a.focus  {
+    background: none;
+}
+
+/* Other dialogues */
+
+div#dlgProps,
+div#dlgLabel,
+div#dlgHelp {
+    height: auto;
+}
+
+.dlg-header {
+    background-image: none !important;
+    padding: 2px 8px !important;
+}
+
+div.dlg-header,
+div#dlgHelp-header {
+    font-family: "Roboto Condensed";
+    background-color: #6C608F;
+    border-bottom: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+div.dlg-window a.dlg-close {
+    margin: 0;
+    text-align: center;
+    background: none;
+    width: auto;
+    height: auto;
+}
+
+a.dlg-close:before {
+    content: '\f057';
+    color: #FF5555;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin: 4px 4px 4px 0;
+    width: 16px;
+}
+
+
+div.dlg-window {
+    background-color: #333644;
+    border: none;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.60);
+    color: #f8f8f2;
+}
+
+div#tadd {
+    height: auto;
+    width: 450px;
+    padding-bottom: 4px;
+}
+
+#addtorrent label:last-of-type,
+#addtorrent br:last-of-type,
+#addtorrent br:nth-last-of-type(2),
+#addtorrenturl br,
+#addtorrenturl label:nth-of-type(2) {
+    display: none !important;
+}
+
+#addtorrent span:first-of-type {
+    margin-top:10px
+}
+
+#addtorrent span:last-of-type {
+    margin-bottom:10px
+}
+
+div#tadd label {
+    margin-top: 3px;
+}
+
+div#tadd span {
+    margin-left: 98px;
+}
+
+div#tadd select {
+    width: 236px;
+}
+
+div#tadd hr {
+    margin: 8px 2px;
+    border: none;
+    height: 1px;
+    background: #3E4153;
+}
+
+#tadd_label_select,
+#tadd_label {
+    float: left;
+}
+
+#addtorrent span,
+#addtorrent label {
+    clear:both;
+    float:left
+}
+
+div#tedit div.text-wrapper {
+    border: none;
+    padding: 0;
+}
+
+div#tedit .text-wrapper textarea#etrackers {
+    box-sizing: border-box;
+    color: #f8f8f2;
+    padding: 4px 6px;
+}
+
+/* Area below torrent list */
+
+div#tdetails {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+ul#tabbar {
+    border-bottom: 2px solid #2E303D;
+    background: none;
+    color: #f8f8f2;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    text-shadow: none;
+}
+
+ul#tabbar li a {
+    font-family: "Roboto Condensed";
+    background: none;
+    box-sizing: border-box;
+    transition: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    color: #f8f8f2;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 12px;
+    top: 0;
+}
+
+ul#tabbar li.selected a {
+    margin: 0;
+}
+
+ul#tabbar input#clear_log {
+    float: right;
+    margin: 4px;
+}
+
+div#tdcont {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+div.tab {
+    height: 100%;
+    background: none;
+}
+
+div#lcont {
+    background: none;
+}
+
+div#lcont div.std {
+    height: 16px;
+    line-height: 16px;
+}
+
+div#gcont table td.Header {
+    text-align: center;
+}
+
+div#gcont table tr td {
+    background: none;
+}
+
+div#gcont span#us,
+div#gcont span#ul {
+    color: #50fa7b;
+}
+
+div#gcont span#ds,
+div#gcont span#dl {
+    color: #8be9fd;
+}
+
+span#ra,
+span#ts {
+    color: #f8f8f2;
+}
+
+div.graph_tab {
+    background: none;
+}
+
+div.flot-text {
+    color: #f8f8f2 !important;
+}
+
+div.table_tab {
+    background: none;
+}
+
+.Icon_Torrent {
+    /* TODO */
+}
+
+.Icon_Vid {
+    /* TODO */
+}
+
+.Icon_Mp3 {
+    /* TODO */
+}
+
+.Icon_Img {
+    /* TODO */
+}
+
+.Icon_Nfo {
+    /* TODO */
+}
+
+.Icon_Sfv {
+    /* TODO */
+}
+
+.Icon_UpD {
+    /* TODO */
+}
+
+.Icon_Rar,.Icon_Zip {
+    /* TODO */
+}
+
+/* Status bar at the bottom of the page */
+
+div#StatusBar {
+    border: none;
+    color:#f8f8f2;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+div#StatusBar .sthdr {
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+}
+
+div#StatusBar .statuscell {
+    border: none;
+    padding: 0 5px;
+}
+
+div#StatusBar #stup_speed {
+    color: #50fa7b;
+}
+
+div#StatusBar #stdown_speed {
+    color: #8be9fd;
+}
+
+/* Toolbar */
+
+div#t {
+    border-bottom: none;
+    height: 36px;
+    padding: 2px 12px;
+    margin-bottom: 4px;
+}
+
+div#t #rc {
+    height: 36px;
+    margin-top: 0;
+    margin-right: 16px;
+}
+
+div#t div#rc a {
+    margin-top: 0;
+}
+
+input#query {
+    margin-right: 8px;
+}
+
+div#t a#mnu_go,
+div#t a#mnu_search {
+    margin-top: 0 !important;
+}
+
+
+div#t div#ind {
+    background: none;
+    height: 24px;
+    width: 24px;
+}
+
+div#t div#ind:before {
+    content: '\f1ce';
+    -ms-animation-name: spinner;
+    -ms-animation-duration: 1s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -moz-animation-name: spinner;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-name: spinner;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spinner {
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+
+@-moz-keyframes spinner {
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+
+@-ms-keyframes spinner {
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+
+
+div#mnu_logoff.top-menu-item {
+    margin-left: 15px;
+}
+
+div#t div.TB_Separator {
+    border:none;
+    background:none;
+    margin:0 4px;
+}
+
+div#t div.TB_Separator:nth-of-type(1),
+div#t div.TB_Separator:nth-of-type(2),
+div#t div.TB_Separator:last-of-type {
+}
+
+
+/* Site content - torrent list + sidebar */
+
+table#maincont {
+    margin: 0;
+}
+
+div#List {
+    border: none;
+}
+
+div#HDivider {
+    background: none;
+    width: 4px;
+}
+
+div#VDivider {
+    background: none;
+    height: 4px;
+}
+
+div#HDivider:hover,
+div#VDivider:hover {
+    background: #6272a4;
+}
+
+/* Sidebar */
+
+div#CatList {
+    border: none;
+    height: auto !important;
+}
+
+div#CatList ul li {
+    background-image: none !important;
+    border: none;
+    padding: 5px 5px 5px 7px;
+}
+
+div#CatList ul li.sel {
+    border: none;
+}
+
+.catpanel {
+    font-family: "Roboto Condensed";
+    background: #6C608F;
+    border: none;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 25px;
+    height: 22px;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    transition: background .2s ease-out;
+}
+
+.catpanel:hover {
+    background: #816DAA;
+}
+
+.catpanel:before {
+    content: '\f0da';
+    width: 10px;
+    margin-right: 7px;
+}
+
+.catpanel.open:before {
+    content: '\f0d7';
+}
+
+.catpanel_cont:last-of-type {
+    padding-bottom: 4px;
+}
+
+div#CatList ul li.RSS {
+    /* TODO */
+}
+
+div#CatList ul li.disRSS {
+    /* TODO */
+}
+
+
+/* DETAILS PANE ICONS */
+
+.Icon_File:before {
+    content: '\f15b';
+    color: #f8f8f2;
+}
+
+.Icon_Share:before,
+.Icon_Dir:before {
+    content: '\f07b';
+    color: #f8f8f2;
+}
+
+/* STATUS BAR ICONS */
+
+.statuscell:before,
+.statuscell *:before {
+    font-size: 16px;
+    line-height: 16px;
+    height: 16px;
+    width: 16px;
+}
+
+
+div#StatusBar table#st_up,
+div#StatusBar table#st_down,
+td#meter-disk-td {
+    background: none;
+}
+
+#servertime,
+div#StatusBar table#st_up td,
+div#StatusBar table#st_down td,
+div#StatusBar table#st_system td {
+    padding-top: 1px;
+}
+
+table#st_down td:first-child .sthdr,
+table#st_up td:first-child .sthdr {
+    margin-left: 0;
+}
+
+
+td#meter-disk-td:before {
+    float: left;
+    content: '\f0a0';
+}
+
+#st_up tr:before {
+    content: '\f077';
+    margin-right: 4px;
+    height: 24px;
+    line-height: 20px;
+    color: #50fa7b;
+}
+
+#st_down tr:before {
+    content: '\f078';
+    margin-right: 4px;
+    height: 24px;
+    line-height: 21px;
+    color: #8be9fd;
+}
+
+
+ul.CMenu li a.menu-cmd.sel {
+    padding-left: 4px;
+}
+
+ul.CMenu li a.exp {
+    background: none;
+}
+
+a.sel.menu-cmd:before {
+    content: '\f00c';
+    width: 8px;
+    height: 16px;
+    margin-right: 4px;
+    font-size: 8px;
+    line-height: 14px;
+}
+
+
+a.exp:after {
+    content: '\f0da';
+    display: inline-block;
+    float: right;
+    font-family: 'FontAwesome';
+    text-align: center;
+    vertical-align: middle;
+}
+
+div#CatList #plabel_cont ul li,
+div#CatList #ptrackers_cont ul li {
+    padding: 5px 7px !important;
+}
+
+div#CatList #plabel_cont img {
+    display: none;
+}
+
+div#CatList #plabel_cont ul li:before,
+div#CatList ul li:before {
+    margin-right: 7px;
+    width: 11px;
+    height: 11px;
+}
+
+div#CatList #plabel_cont ul li:before {
+    color: #ADB5CB;
+}
+
+#-_-_-all-_-_-:before {
+    content: '\f069';
+    color: #f8f8f2;
+}
+
+#-_-_-dls-_-_-:before {
+    content: '\f063';
+    color: #8be9fd;
+}
+
+#-_-_-com-_-_-:before {
+    content: '\f00c';
+    color: #50fa7b;
+}
+
+#-_-_-act-_-_-:before {
+    content: '\f111';
+    color:  #ffb86c;
+}
+
+#-_-_-iac-_-_-:before {
+    content: '\f10c';
+    color: #f1fa8c;
+}
+
+#-_-_-err-_-_-:before {
+    content: '\f00d';
+    color: #ff5555;
+}
+
+
+div#CatList #plabel_cont #-_-_-nlb-_-_-:before {
+    content: '\f056';
+    color: #ff5555;
+}
+
+#-_-_-movies-_-_-:before {
+    content: '\f008';
+}
+
+#-_-_-tv-_-_-:before {
+    content: '\f26c';
+}
+
+#-_-_-music-_-_-:before {
+    content: '\f001';
+}
+
+#-_-_-other-_-_-:before {
+    content: '\f15b';
+}
+
+#-_-_-games-_-_-:before {
+    content: '\f11b';
+}
+
+#-_-_-books-_-_-:before {
+    content: '\f02d';
+}
+
+div#t a div {
+    background: none !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+div#t a {
+    margin: 9px 12px 0 0 !important;
+    padding: 0 !important;
+    transition: .2s ease-out;
+}
+
+div#t a:hover {
+    background: none;
+    opacity: 0.75;
+}
+
+div#t *:before {
+    font-size: 22px;
+    line-height: 22px;
+    height: 22px;
+}
+
+div#t div#add:before {
+    content: '\f055';
+    color: #50fa7b;
+}
+
+div#t div#create:before {
+    content: '\f192';
+    color: #8be9fd;
+}
+
+div#t div#remove:before {
+    content: '\f056';
+    color: #ff5555;
+}
+
+div#t div#start:before {
+    content: '\f144';
+    color: #50fa7b;
+}
+
+div#t div#pause:before {
+    content: '\f28b';
+    color: #ffb86c;
+}
+
+div#t div#stop:before {
+    content: '\f28d';
+    color: #ff5555;
+}
+
+div#t div#moveu:before {
+    content: '\f';
+}
+
+div#t div#moved:before {
+    content: '\f';
+}
+
+div#t div#search:before {
+    content: '\f002';
+    color: #f8f8f2;
+}
+
+div#t div#rss:before {
+    content: '\f';
+}
+
+div#t div#setting:before {
+    content: '\f013';
+    color: #CBCCCC;
+}
+
+div#t div#plugins:before {
+    content: '\f12e';
+    color: #f1fa8c;
+}
+
+div#t div#help:before {
+    content: '\f059';
+    color: #6272a4;
+}
+
+div#t div#go:before {
+    content: '\f061';
+    color: #7DC1DF;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    margin: 0;
+    height: 15px;
+    padding: 0;
+    width: 15px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment,
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb:vertical,::-webkit-scrollbar-thumb:horizontal {
+    background-color: #4C526D;
+    height: 50px;
+}

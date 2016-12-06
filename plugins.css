@@ -1,0 +1,412 @@
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(https://themes.googleusercontent.com/static/fonts/ubuntu/v5/_xyN3apAT_yRRDeqB3sPRg.woff) format('woff');
+}
+
+
+div#tcreate fieldset textarea#trackers {
+    border: none;
+    color: #f8f8f2;
+    cursor: text;
+}
+
+#recentTrackers {
+    margin-left: 10px;
+}
+
+
+.tskconsole,
+.exconsole,
+.console,
+.starterConsole {
+	background: #333333
+}
+
+#tsk_btns input.Button {
+    margin: 0px 3px
+}
+        
+#tsk_btns .scplay {
+    display:none
+}
+
+.cCell {
+	color: black
+}
+
+#meter-disk-value,
+#qmeter-disk-value,
+#qmeter-band-value {
+    border: none;
+    overflow: hidden;
+}
+
+#meter-disk-text,
+#qmeter-disk-text,
+#meter-band-text {
+    color: #fff;
+    position: relative;
+    text-align: left;
+    float: left;
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+    left: 40%;
+    font-size: 11px;
+    font-family: Ubuntu;
+    z-index: 1;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+#meter-disk-holder,
+#qmeter-disk-holder,
+#meter-band-holder {
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    border-right: none;
+    padding-left: 25px;
+    margin-left: 0px;
+}
+
+div#meter-disk-holder {
+    padding-left: 20px;
+}
+
+#meter-disk-value {
+    border-radius: 1px;
+}
+
+#meter-cpu-text {
+    position: absolute;
+    left: 65px;
+    top: 0px;
+    color: #fff;
+    font-size: 11px;
+    font-family: Ubuntu;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+#meter-cpu-holder {
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    border-right: none;
+    margin-left: 0px;
+    padding-left: 25px;
+    background: none;
+}
+
+div.graph_tab {
+    color: #FFF;
+    border-color: #000;
+}
+
+div#traf_graph_ctrl {
+    padding-top: 2px;
+    height: auto !important;
+}
+
+div#dlgAddRSS {
+    background-color: #222222;
+    border-top: 1px solid #333;
+    border-right: 1px solid #1b1b1b;
+    border-left: 1px solid #1b1b1b;
+    border-bottom: 1px solid #000000;
+}
+
+#sch_desc {
+    width: auto;
+    padding: 4px;
+}
+
+.sch_fast,
+.sch_stop,
+.sch_seed,
+.sch_res1,
+.sch_res2,
+.sch_res3  {
+    border: 1px solid #44475A;
+}
+
+.sch_fast { background: #50fa7b }
+
+.sch_stop { background: #6272a4 }
+
+.sch_seed { background: #ff5555 }
+
+.sch_res1 { background: #F1FA8C }
+
+.sch_res2 { background: #FFB86C }
+
+.sch_res3 { background: #ff79c6 }
+
+#st_throttle_h table td input {
+    padding: 4px 8px;
+}
+
+.lf li input.TextboxFocus {
+	background-color: transparent; color: #009DDD
+}
+
+#cCont {
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.cCell {
+    border: none !important;
+    color: #282a36;
+}
+
+.Cell0 { background-color: #FF5555; }
+.Cell1 { background-color: #FF695A; }
+.Cell2 { background-color: #FF7D5E; }
+.Cell3 { background-color: #FF9063; }
+.Cell4 { background-color: #FFA467; }
+.Cell5 { background-color: #FFB86C; }
+.Cell6 { background-color: #FCC572; }
+.Cell7 { background-color: #F9D279; }
+.Cell8 { background-color: #F7E07F; }
+.Cell9 { background-color: #F4ED86; }
+.CellA { background-color: #F1FA8C; }
+.CellB { background-color: #D1FA89; }
+.CellC { background-color: #B1FA85; }
+.CellD { background-color: #90FA82; }
+.CellE { background-color: #70FA7E; }
+.CellF { background-color: #50FA7B; }
+
+#tCellNotSupported {
+	text-align: center;
+}
+
+#tRowNotSupported {
+	vertical-align: middle; color: red;
+}
+
+
+div#dlgEditRules,
+div#dlgEditRatioRules {
+	width: 620px;
+    height: auto;
+}
+
+div.fxcaret {
+    padding: 4px 4px 0 4px;
+}
+
+.rf_rru {
+    background: none;
+}
+
+
+.lfc_rru, .lfc_rur {
+	width:250px;
+}
+
+.lf_rru, .lf_rur {
+	border: none;
+    border-radius: 2px;
+    background-color: #393B4C;
+}
+
+#exratio_buttons1 input.Button {
+    margin:0px 3px;
+}
+
+#ratio_reason {
+    width: 316px;
+}
+
+#autodl-tb {
+    /* TODO */
+}
+
+#autodl-tb:hover {
+    /* TODO */
+}
+
+#autodl-multiselect-header {
+    /* TODO */
+}
+
+
+#automove_filter, #label_template {
+    width: 120px;
+}
+
+.shieven {
+	background: #191919;
+}
+
+.shiodd {
+	background: #333333;
+}
+
+
+div#webuiUpdateToggle.pause {
+    /* TODO */
+}
+
+div#webuiUpdateToggle.pause:hover {
+    /* TODO */
+}
+
+div#webuiUpdateToggle.resume {
+    /* TODO */
+}
+
+div#webuiUpdateToggle.resume:hover {
+    /* TODO */
+}
+
+div#webuiRefresh {
+    /* TODO */
+}
+
+div#webuiRefresh:hover {
+    /* TODO */
+}
+
+div#linkproxy {
+    /* TODO */
+}
+
+div#linkproxy:hover {
+    /* TODO */
+}
+
+div#linklogs {
+    /* TODO */
+}
+
+div#linklogs:hover {
+    /* TODO */
+}
+
+
+div#linkseedboxmanager {
+    /* TODO */
+}
+
+div#linkseedboxmanager:hover {
+    /* TODO */
+}
+
+
+div#plugin {
+    /* TODO */
+}
+
+div#plugin:hover {
+    /* TODO */
+}
+
+#maillayout #letterform table tr td {
+	background: #181818
+}
+
+#maillayout #replyform table tr td {
+	background: #181818
+}
+
+div#chat {
+    /* TODO */
+}
+
+div#chat:hover {
+    /* TODO */
+}
+
+div#tchat div.dlg-header {
+    /* TODO */
+}
+
+#userlist,
+#chatselect,
+#chatarea,
+#chatselect option {
+    border:none !important;
+    background-color:#6F6F6F !important;
+    border-radius:2px !important;
+    color:#fff !important
+}
+
+div#logoff {
+    /* TODO */
+}
+
+div#logoff:hover {
+    /* TODO */
+}
+
+div#logoffDlg div.dlg-header {
+    /* TODO */
+}
+
+.noty_alert, .noty_success {
+	color: #000000; text-shadow: 0 -1px 0 #ffffff
+}
+
+/* PORT */
+div#StatusBar table tr td#port-td.pstatus0,
+div#StatusBar table tr td#port-td.pstatus1,
+div#StatusBar table tr td#port-td.pstatus2 {
+    background: none;
+}
+
+div#port-holder {
+    display: none;
+}
+
+#port-td.pstatus2:before {
+    content: '\f058';
+    color: #50fa7b;
+}
+
+#port-td.pstatus1:before {
+    content: '\f06a';
+    color: #ff5555;
+}
+
+#port-td.pstatus0:before {
+    content: '\f059';
+    color: #ffb86c;
+}
+
+/* ALL KINDA STUFF */
+
+#hostcookies,
+#st_lookat #lookat,
+#message,
+#FS_downlink {
+	background: none;
+	border: none!important;
+	color: #f8f8f2;
+}
+
+/* FILEMANAGER */
+
+#fMan_navbut {
+    /* TODO */
+	border:1px solid #181818!important
+}
+
+#fMan_navbut:hover {
+    /* TODO */
+}
+
+#fMan_pathsel {
+	max-width:600px!important
+}

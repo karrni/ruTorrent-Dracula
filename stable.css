@@ -1,0 +1,251 @@
+/* HOVER */
+
+div.stable-body table tbody tr.even:hover td,
+div.stable-body table tbody tr.odd:hover td {
+    background: #393B4C;
+    color: #f1fa8c;
+    transition: .2s ease-out;
+}
+
+/* ACTIVE */
+.stable-body tr.selected td {
+    background: #3E4153;
+    color: #ffb86c;
+    transition: .2s ease-out;
+}
+
+/* HEADER */
+
+.stable-head {
+    font-family: "Roboto Condensed";
+    font-size: 11px;
+    background: #6C608F;
+    border: none;
+    color: #f8f8f2;
+}
+
+div#tdetails div.stable-head {
+    background: #3E4153;
+    border-bottom: 2px solid #2E303D;
+}
+
+div#tdetails div.stable-head table tr td {
+    height: 16px;
+}
+
+div#tdetails div.stable-head table tr td:before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    line-height: 18px;
+    margin-left: 6px;
+    width: 8px;
+    padding-left: 0;
+}
+
+div#tdetails div.stable-head td div {
+    height: 16px;
+    line-height: 16px;
+}
+
+div#tdcont .stable,
+div#tdcont .stable-head {
+    border: none;
+}
+
+.stable-head td div {
+    padding: 1px 22px;
+}
+
+.stable-head table tr {
+    background: transparent;
+    border: none;
+}
+
+.stable-head table tr td {
+    background: none;
+    border-right: 2px #2E303D;
+    border-style: none solid none none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: 700;
+    height: 22px;
+    line-height: 22px;
+    transition: background .2s ease-out;
+    text-align: center !important;
+}
+
+.stable-head table tr td:hover {
+    background: #816DAA;
+}
+
+.stable-head table tr td:before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    line-height: 24px;
+    margin-left: 6px;
+    width: 8px;
+    padding-left: 0;
+}
+
+.stable-head table tr td.desc:before {
+    content: '\f0d8';
+}
+
+.stable-head table tr td.asc:before {
+    content: '\f0d7';
+}
+
+.stable-resize-header {
+    background-color: transparent;
+    border-right: 1px solid #bd93f9;
+    width: 4px;
+}
+
+.stable-move-header {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    height: 26px;
+    line-height: 26px;
+    opacity: 0.7;
+    padding: 0 8px;
+    text-align: center !important;
+}
+
+.gecko .stable-move-header {
+    background: rgba(255, 255, 255, 0.2);
+    -moz-opacity: 0.7;
+}
+
+.ie .stable-move-header {
+    background: rgba(255, 255, 255, 0.2);
+    filter:alpha(opacity=70);
+}
+
+.webkit .stable-move-header {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.stable-active-header {
+    border-color: threedface !important;
+}
+
+.stable-separator-header {
+    background: #bd93f9;
+    height: 26px;
+}
+
+/* BODY */
+
+.stable-body {
+    background: none;
+}
+
+.stable-body tr {
+    height: 22px;
+}
+
+.stable-body td {
+    border-bottom:none
+}
+
+.stable-body tr.odd td {
+    background: none;
+}
+
+.stable-body tr.even td {
+    background: #333644;
+}
+
+.stable-body td div {
+    height: 16px !important;
+    line-height: 16px;
+    margin: 0 2px 0 0 !important;
+}
+
+span.stable-icon {
+    background-image: none;
+    font-family: 'FontAwesome';
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.Status_Up:before {
+    content: '\f0aa';
+    color: #50fa7b;
+}
+
+.Status_Down:before {
+    content: '\f0ab';
+    color: #8be9fd;
+}
+
+.Status_Error_Up:before {
+    content: '\f0aa';
+    color: #ff5555;
+}
+
+.Status_Error_Down:before {
+    content: '\f0ab';
+    color: #ff5555;
+}
+
+.Status_Error:before {
+    content: '\f057';
+    color: #ff5555;
+}
+
+.Status_Paused:before {
+    content: '\f28b';
+    color: #f1fa8c;
+}
+
+.Status_Incompleted:before {
+    content: '\f28d';
+    color: #ffb86c;
+}
+
+.Status_Completed:before {
+    content: '\f058';
+    color: #6EF2BC;
+}
+
+.Status_Checking:before {
+    content: '\f059';
+    color: #6272a4;
+}
+
+.Status_Queued_Up:before,
+.Status_Queued_Down:before {
+    content: '\f0a9';
+    color: #f1fa8c;
+}
+
+.meter-text {
+    display: none;
+}
+
+.meter-value {
+    border: none;
+    border-radius: 1px;
+}
+
+.stable-body td div.meter-value {
+    height: 8px !important;
+    margin-top: 4px !important;
+}
+
+.meter-value-start-color {
+    background-color: #E53935;
+}
+
+.meter-value-end-color {
+    background-color: #8BC34A;
+}
