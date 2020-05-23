@@ -1010,7 +1010,8 @@ div#t div#search:before {
 }
 
 div#t div#rss:before {
-    content: '\f';
+    content: '\f09e';
+    color: #f26522;
 }
 
 div#t div#setting:before {
