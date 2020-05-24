@@ -286,7 +286,7 @@ ul.CMenu li:hover ul li a {
 
 div.stg_con {
     background: none;
-    height: 492px;
+   /* height: 492px;*/
     margin: 0;
 }
 
